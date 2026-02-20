@@ -1,0 +1,4 @@
+%{
+  "dns_cluster": {:hex, :dns_cluster, "0.2.0", "aa8eb46e3bd0326bd67b84790c561733b25c5ba2fe3c7e36f28e88f384ebcb33", [:mix], [], "hexpm", "ba6f1893411c69c01b9e8e8f772062535a4cf70f3f35bcc964a324078d8c8240"},
+  "syn": {:hex, :syn, "3.4.0", "cc16c2107bef0a729f96e95827def83e6a8d078d643f822e49419b153d475112", [:rebar3], [], "hexpm", "69e30a2181c11211791183aad148975adc6e4b3ec9718510e5ea42cf5d73de9d"},
+}

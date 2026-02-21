@@ -14,7 +14,7 @@ defmodule Dist.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger, :syn],
+      extra_applications: [:logger, :syn, :wx, :observer],
       mod: {Dist, []}
     ]
   end
@@ -23,6 +23,7 @@ defmodule Dist.MixProject do
   defp deps do
     [
       {:dns_cluster, "~> 0.2"},
+      {:libcluster, "~> 3.5"},
       {:syn, "~> 3.4"}
     ]
   end
